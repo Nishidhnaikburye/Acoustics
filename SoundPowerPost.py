@@ -97,9 +97,7 @@ plt.figure(figsize=(10, 6))  # Adjust figure size as needed
 plt.plot(freq, LpaMean_Source_final, label='LpA', linestyle='-', marker='o', color=color_lpa)
 plt.plot(freq, Lwa, label='LwA', linestyle='--', marker='x', color=color_lwa)
 plt.xscale('log')
-plt.grid(True, which="both", ls="--", linewidth=0.5)
-# plt.title('Sound Level Analysis')
-plt.xlabel('Frequency (Hz)')
+plt.grid(True, which="both", ls="--", linewidth=0.5)plt.xlabel('Frequency (Hz)')
 plt.ylabel('Sound Pressure Level (dB)')
 plt.legend()
 plt.tight_layout()  # Improves spacing
